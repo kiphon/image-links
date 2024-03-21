@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .Space {
+            height: 20px;
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to technology!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Get to learn more on technology:</p>
+        <img id="Technology" src="https://deeptechstartups.in/wp-content/uploads/2022/09/Deep-Tech-1.jpg" alt="Technology">
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img id="Nature_Image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz1Hwp4LMMMWr6HKGb7Sx-9_FUnQUraVWa5g&usqp=CAU" alt="Nature">
+            <img id="Nature_Image3" src="https://grist.org/wp-content/uploads/2015/10/suzanneillomerged.jpg" alt="Nature">
+            <img id="Nature_Image3" src="https://media.lesechos.com/api/v1/images/view/6538af251f610c4acf4242da/1280x720/0903031424023-web-tete.jpg" alt="Nature">
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <img id="Food_Image3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkixvAfA1qwtgpdw3xDbPZIBooUKymajf-xQ&usqp=CAU" alt="Nature">
+            <img id="Food_Image3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbO4TJShq0JrjFT4-z4DnUlWxTKRQomB07A&usqp=CAU" alt="Nature">
+            <img id="Food_Image3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy-1GvAJgGCvE9bhS1r9vP3NWh2zvS8OHdpQ&usqp=CAU" alt="Nature">
+        </ul>
+    </section>
+    <section id="Space">
+        <div class="Space"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
